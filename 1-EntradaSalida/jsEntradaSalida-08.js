@@ -7,13 +7,18 @@ function SacarResto()
 {
 	var uno;
 	var dos;
+	var calculo;
 	var resultado="";
 
 	uno=document.getElementById("txtIdNumeroDividendo").value;
 	dos=document.getElementById("txtIdNumeroDivisor").value;
-	
-	resultado=" el resto es "
-	resultado=resultado + (parseInt(uno) / parseInt(dos));
+	uno=parseInt(uno);
+	dos=parseInt(dos);
+	calculo=uno % dos;
+	resultado=" el resto es ";
+	resultado=resultado + calculo;
+	document.getElementById("txtIdNumeroDividendo").value="";
+	document.getElementById("txtIdNumeroDivisor").value="";
 
-	alert(resultado)
+	alert(resultado);
 }
