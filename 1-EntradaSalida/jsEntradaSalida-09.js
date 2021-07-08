@@ -10,9 +10,10 @@ function mostrarAumento()
 	var porcentajeDeAumento;
 	var calculo;
 	var resultado;
-
-	sueldo=parseInt(document.getElementById("txtIdSueldo").value);
+	//primero se pone lo que tomamos
+	sueldo=document.getElementById("txtIdSueldo").value;
 	porcentajeDeAumento=prompt("ingrese el número del % a aumentar");
+	//luego debemos transformar lo que tomamos
 	sueldo=parseInt(sueldo);
 	porcentajeDeAumento= parseInt(porcentajeDeAumento);
 	calculo=sueldo * (porcentajeDeAumento/100);
