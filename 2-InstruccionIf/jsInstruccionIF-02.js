@@ -8,8 +8,7 @@ function mostrar()
 	edad=parseInt(edad);
 	//si pongo
 	//if(edad > 17) funciona,pero no es tan estricto el rango
-	if(edad>=18);
-	{
+	if(edad>=18){
 
 		alert("Es mayor de edad");
 	}

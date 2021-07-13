@@ -8,11 +8,12 @@ function mostrar()
 	//comparo numeros asi...;
 	//edad=parseInt(edad);
 	//	if(edad==15);
-	if(edad=="15");
-	{
+	
+	if(edad=="15"){
 		alert("Niña bonita");
 	}	
-		alert("Fin de la funcion");
+	
+	alert("Fin de la funcion");
 }
 //15==15 :es true(numeros). si le pongo 3 "==="va a seguir siendo true
 //"15"=="15" :es true(palabras). si le pongo 3 "==="va a seguir siendo true
